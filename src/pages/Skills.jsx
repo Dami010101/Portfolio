@@ -12,12 +12,16 @@ const Skills = () => {
   
 
   const skills = [
-    { name: 'HTML', level: 'Expert' },
-    { name: 'CSS', level: 'Expert' },
-    { name: 'JavaScript', level: 'Advanced' },
-    { name: 'React', level: 'Advanced' },
-    { name: 'TailwindCSS', level: 'Advanced' },
-    { name: 'NextJS', level: 'Advanced' },
+    { name: 'HTML'},
+    { name: 'CSS' },
+    { name: 'JavaScript'},
+    { name: 'React'},
+    { name: 'TailwindCSS' },
+    { name: 'NextJS'},
+    { name: 'NodeJS'},
+    { name: 'ExpressJS'},
+    { name: 'MongoDB'},
+    // { name: 'NextJS', level: 'Advanced' },
     // Add more skills as needed
   ];
 
@@ -33,7 +37,7 @@ const Skills = () => {
               {skills.map((skill, index) => (
                 <div key={index} className="p-4 bg-gray-100 dark:bg-gray-700 rounded-lg shadow-md">
                   <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">{skill.name}</h2>
-                  <p className="mt-2 text-gray-600 dark:text-gray-300">{skill.level}</p>
+                  {/* <p className="mt-2 text-gray-600 dark:text-gray-300">{skill.level}</p> */}
                 </div>
               ))}
             </div>

@@ -10,7 +10,7 @@ const CAT = () => {
         <div className="absolute md:block -bottom-32 -left-32 w-96 h-96">
           <div className="absolute z-20 text-xl font-extrabold right-12 text-start top-1/4">
             <span className="text-7xl">🎨</span>
-            <p className=' text-xs'>Need a front-end developer?</p>
+            <p className=' text-xs'>Need a Web developer?</p>
             <a href="Contact" className="text-blue-800">Let's talk</a>
           </div>
           <svg viewBox="0 0 200 200" className="absolute w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +23,7 @@ const CAT = () => {
               <img src={coder} alt="Coder" className="mx-auto w-28 h-28 object-contain rounded-full" />
               <p className="my-6 text-3xl text-center dark:text-white">Hi, I'm Dami 🤘</p>
               <h2 className="max-w-3xl py-2 mx-auto text-2xl font-bold text-center text-gray-800 md:text-3xl dark:text-white">
-                I'm a UK based web designer & front end developer focused on crafting clean & user-friendly experiences. I am passionate about building excellent software that improves the lives of those around me.
+                I'm a UK based web developer focused on crafting clean & user-friendly experiences. I am passionate about building excellent software that improves the lives of those around me.
               </h2>
               <div className="flex items-center justify-center mt-4">
                 <ScrollLink className="px-4 py-2 my-2 text-gray-800 uppercase bg-transparent border-2 border-gray-800 md:mt-16 dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 hover:dark:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-white hover:bg-gray-800 hover:text-white text-md" to='Contact' smooth={true} duration={500}>
