@@ -16,11 +16,14 @@ const Skills = () => {
     { name: 'CSS' },
     { name: 'JavaScript'},
     { name: 'React'},
+    { name: 'Redux'},
     { name: 'TailwindCSS' },
     { name: 'NextJS'},
     { name: 'NodeJS'},
+    { name: 'TypeScript' },
     { name: 'ExpressJS'},
     { name: 'MongoDB'},
+    { name: 'Adobe Creative Suite'},
     // { name: 'NextJS', level: 'Advanced' },
     // Add more skills as needed
   ];
@@ -36,7 +39,7 @@ const Skills = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               {skills.map((skill, index) => (
                 <div key={index} className="p-4 bg-gray-100 dark:bg-gray-700 rounded-lg shadow-md">
-                  <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">{skill.name}</h2>
+                  <h2 className="text-2xl font-semibold text-gray-800 dark:text-white text-center">{skill.name}</h2>
                   {/* <p className="mt-2 text-gray-600 dark:text-gray-300">{skill.level}</p> */}
                 </div>
               ))}
