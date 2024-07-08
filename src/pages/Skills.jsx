@@ -11,22 +11,26 @@ const Skills = () => {
       }, [])
   
 
-  const skills = [
-    { name: 'HTML'},
-    { name: 'CSS' },
-    { name: 'JavaScript'},
-    { name: 'React'},
-    { name: 'Redux'},
-    { name: 'TailwindCSS' },
-    { name: 'NextJS'},
-    { name: 'NodeJS'},
-    { name: 'TypeScript' },
-    { name: 'ExpressJS'},
-    { name: 'MongoDB'},
-    { name: 'Adobe Creative Suite'},
-    // { name: 'NextJS', level: 'Advanced' },
-    // Add more skills as needed
-  ];
+      const skills = [
+        { name: 'HTML'},
+        { name: 'CSS' },
+        { name: 'SASS' },
+        { name: 'JavaScript'},
+        { name: 'Bootstrap' },
+        { name: 'GIT' },
+        { name: 'ReactJS'},
+        { name: 'Redux'},
+        { name: 'TailwindCSS' },
+        { name: 'NodeJS'},
+        { name: 'NextJS'},
+        { name: 'TypeScript' },
+        { name: 'ExpressJS'},
+        { name: 'MongoDB'},
+        { name: 'Firebase'},
+        { name: 'Adobe Creative Suite'},
+        // { name: 'NextJS', level: 'Advanced' },
+        // Add more skills as needed
+      ];
 
   return (
     <div id='Skills'>
